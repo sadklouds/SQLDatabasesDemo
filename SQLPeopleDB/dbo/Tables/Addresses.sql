@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Addresses]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+    [Address] NVARCHAR(100) NOT NULL
+)
